@@ -1,0 +1,41 @@
+/* Smooth, calm macOS-inspired rendering */
+html {
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+/* Global font stack */
+body {
+  font-family: ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont,
+    "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif;
+  line-height: 1.65;
+}
+
+/* Headings rhythm */
+h1, h2, h3 {
+  line-height: 1.25;
+  margin-top: 2rem;
+  margin-bottom: 1rem;
+}
+
+/* Link subtle styling */
+a {
+  transition: color 0.15s ease, opacity 0.15s ease;
+}
+
+a:hover {
+  opacity: 0.85;
+}
+
+/* Max-width for content blocks */
+.content {
+  max-width: 60ch;
+  margin: auto;
+}
+
+/* Subtle separators you can use later */
+.divider {
+  height: 1px;
+  background: rgba(0,0,0,0.05);
+  margin: 2rem 0;
+}
