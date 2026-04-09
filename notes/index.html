@@ -9,19 +9,71 @@
 </head>
 
 <body class="bg-slate-50 text-gray-800 font-sans leading-relaxed">
-  <header class="max-w-3xl mx-auto py-10">
-    <h1 class="text-3xl font-semibold text-gray-900">Family Notes</h1>
-    <nav class="mt-4 text-gray-600">
-      <a href="/" class="hover:text-gray-900">← Back to Home</a>
+  <header class="max-w-3xl mx-auto px-4 py-10">
+    <h1 class="text-3xl sm:text-4xl font-semibold text-gray-900">Notes</h1>
+    <nav class="mt-4 text-gray-600 text-sm sm:text-base">
+      <a href="../" class="hover:text-gray-900">← Back to Home</a>
     </nav>
   </header>
 
-  <main class="max-w-3xl mx-auto mt-10">
-    <p class="text-gray-500">Shared notes for family will appear here.</p>
+  <main class="max-w-3xl mx-auto px-4 mt-10 content">
+    <section>
+      <p class="text-gray-500 mt-2">
+        Organized thoughts, ideas, and things to explore.
+      </p>
+
+      <div class="mt-8 space-y-4">
+
+        <a href="./ai/" class="block rounded-xl bg-white p-4 shadow-sm hover:bg-gray-50 transition">
+          <div class="text-base sm:text-lg font-medium text-gray-900">
+		  AI / ML<span class="text-gray-400 text-sm">(~12)</span>
+	  </div>
+          <div class="text-sm text-gray-500 mt-1">Models, systems, ideas, experiments.</div>
+        </a>
+
+        <a href="./finance/" class="block rounded-xl bg-white p-4 shadow-sm hover:bg-gray-50 transition">
+          <div class="text-base sm:text-lg font-medium text-gray-900">Finance</div>
+          <div class="text-sm text-gray-500 mt-1">Strategies, checklists, planning, research.</div>
+        </a>
+
+        <a href="./home/" class="block rounded-xl bg-white p-4 shadow-sm hover:bg-gray-50 transition">
+          <div class="text-base sm:text-lg font-medium text-gray-900">Home / Projects</div>
+          <div class="text-sm text-gray-500 mt-1">Household systems, repairs, ideas, future work.</div>
+        </a>
+
+	<a href="./healthcare/" class="block rounded-xl bg-white p-4 shadow-sm hover:bg-gray-50 transition">
+	  <div class="text-base sm:text-lg font-medium text-gray-900">
+	    Healthcare <span class="text-gray-400 text-sm">(~5)</span>
+	  </div>
+	  <div class="text-sm text-gray-500 mt-1">
+	    Bills, claims, and health habits.
+	  </div>
+	</a>
+
+	<a href="./familyerrands/" class="block rounded-xl bg-white p-4 shadow-sm hover:bg-gray-50 transition">
+	  <div class="text-base sm:text-lg font-medium text-gray-900">
+	    Family Errands <span class="text-gray-400 text-sm">(~5)</span>
+	  </div>
+	  <div class="text-sm text-gray-500 mt-1">
+	    Weekly tasks and recurring logistics.
+	  </div>
+	</a>
+
+	<a href="./education/" class="block rounded-xl bg-white p-4 shadow-sm hover:bg-gray-50 transition">
+	  <div class="text-base sm:text-lg font-medium text-gray-900">
+	    Education <span class="text-gray-400 text-sm">(~3)</span>
+	  </div>
+	  <div class="text-sm text-gray-500 mt-1">
+	    Kids’ learning progress and direction.
+	  </div>
+	</a>
+
+      </div>
+    </section>
   </main>
 
-  <footer class="text-center text-gray-400 text-sm py-10">
-    © 2025 Mike Shin
+  <footer class="text-center text-gray-400 text-sm px-4 py-10">
+    © 2026 Mike Shin
   </footer>
 </body>
 </html>
