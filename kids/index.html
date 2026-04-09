@@ -9,19 +9,118 @@
 </head>
 
 <body class="bg-slate-50 text-gray-800 font-sans leading-relaxed">
-  <header class="max-w-3xl mx-auto py-10">
-    <h1 class="text-3xl font-semibold text-gray-900">Kids' Learning</h1>
-    <nav class="mt-4 text-gray-600">
-      <a href="/" class="hover:text-gray-900">← Back to Home</a>
+  <header class="max-w-3xl mx-auto px-4 py-10">
+    <h1 class="text-3xl sm:text-4xl font-semibold text-gray-900">Kids' Learning</h1>
+    <nav class="mt-4 text-gray-600 text-sm sm:text-base">
+      <a href="../" class="hover:text-gray-900">← Back to Home</a>
     </nav>
   </header>
 
-  <main class="max-w-3xl mx-auto mt-10">
-    <p class="text-gray-500">Learning logs and mini tools will go here.</p>
+  <main class="max-w-3xl mx-auto px-4 mt-10 content">
+
+    <!-- Photos -->
+    <section>
+      <h2 class="text-xl sm:text-2xl font-semibold">Kids</h2>
+      <p class="text-gray-500 mt-2">Moments and memories.</p>
+
+      <div class="grid grid-cols-1 sm:grid-cols-2 gap-6 mt-6">
+
+        <div>
+          <div class="w-full h-56 overflow-hidden rounded-xl shadow-sm bg-gray-100">
+            <img
+              src="../pictures/kids/jose.jpg"
+              alt="Johnny"
+              class="w-full h-full object-cover transition-transform duration-200 hover:scale-105"
+            />
+          </div>
+          <p class="text-center text-sm mt-2 text-gray-600">Jose</p>
+        </div>
+
+        <div>
+          <div class="w-full h-56 overflow-hidden rounded-xl shadow-sm bg-gray-100">
+            <img
+              src="../pictures/kids/ben.jpg"
+              alt="Benjamin"
+              class="w-full h-full object-cover object-top transition-transform duration-200 hover:scale-105"
+            />
+          </div>
+          <p class="text-center text-sm mt-2 text-gray-600">Benjamin</p>
+        </div>
+
+        <div>
+          <div class="w-full h-56 overflow-hidden rounded-xl shadow-sm bg-gray-100">
+            <img
+              src="../pictures/kids/teddy.jpg"
+              alt="Teddy"
+              class="w-full h-full object-cover transition-transform duration-200 hover:scale-105"
+            />
+          </div>
+          <p class="text-center text-sm mt-2 text-gray-600">Teddy</p>
+        </div>
+
+        <div>
+          <div class="w-full h-56 overflow-hidden rounded-xl shadow-sm bg-gray-100">
+            <img
+              src="../pictures/kids/dia.jpg"
+              alt="Dia"
+              class="w-full h-full object-cover transition-transform duration-200 hover:scale-105"
+            />
+          </div>
+          <p class="text-center text-sm mt-2 text-gray-600">Dia</p>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- Divider -->
+    <div class="divider"></div>
+
+    <!-- Learning -->
+    <section>
+      <h2 class="text-xl sm:text-2xl font-semibold">Learning</h2>
+      <p class="text-gray-500 mt-2">
+        Logs, activities, and notes for ongoing learning.
+      </p>
+
+      <div class="mt-6 space-y-4">
+
+        <details class="rounded-xl bg-white p-4 shadow-sm">
+          <summary class="cursor-pointer font-medium text-gray-900">
+            Benjamin – Reading Progress
+          </summary>
+          <div class="ml-1 mt-3 text-sm text-gray-700 space-y-1">
+            <p>• Finished Wimpy Kid series</p>
+            <p>• Exploring new genres</p>
+          </div>
+        </details>
+
+        <details class="rounded-xl bg-white p-4 shadow-sm">
+          <summary class="cursor-pointer font-medium text-gray-900">
+            Jose – Math & Projects
+          </summary>
+          <div class="ml-1 mt-3 text-sm text-gray-700 space-y-1">
+            <p>• Working on small coding project</p>
+            <p>• Practicing arithmetic drills</p>
+          </div>
+        </details>
+
+        <details class="rounded-xl bg-white p-4 shadow-sm">
+          <summary class="cursor-pointer font-medium text-gray-900">
+            Teddy – Early Learning
+          </summary>
+          <div class="ml-1 mt-3 text-sm text-gray-700 space-y-1">
+            <p>• Basic vocabulary</p>
+            <p>• Motor skills development</p>
+          </div>
+        </details>
+
+      </div>
+    </section>
+
   </main>
 
-  <footer class="text-center text-gray-400 text-sm py-10">
-    © 2025 Mike Shin
+  <footer class="text-center text-gray-400 text-sm px-4 py-10">
+    © 2025 Lovuitina Chan
   </footer>
 </body>
 </html>
